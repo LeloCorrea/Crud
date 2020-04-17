@@ -36,3 +36,6 @@ Compacte o projeto completo e envie por e-mail o link para download do mesmo;
 Fornecer também um how-to de como rodar sua aplicação;
 
 O Angular é um framework JavaScript, serve para desenvolver aplicações WEB.
+
+Pré requisito: 
+    Instalar o NodeJS no linux através do comando: sudo apt-get install nodejs npm via terminal.
