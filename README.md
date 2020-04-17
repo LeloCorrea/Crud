@@ -39,3 +39,10 @@ O Angular é um framework JavaScript, serve para desenvolver aplicações WEB.
 
 Pré requisito: 
     Instalar o NodeJS no linux através do comando: sudo apt-get install nodejs npm via terminal.
+
+    Comandos no terminal:
+    cd: para voltar para a raiz
+    mkdir dev-angular: para criar um diretório
+    cd dev-angular: para entrar no diterório
+
+    Para criar o projeto base é necessário instalar o Angular/cli, através do comando: npm install -g @angular/cli
