@@ -34,3 +34,5 @@ Após a realização do teste:
 
 Compacte o projeto completo e envie por e-mail o link para download do mesmo;
 Fornecer também um how-to de como rodar sua aplicação;
+
+O Angular é um framework JavaScript, serve para desenvolver aplicações WEB.
