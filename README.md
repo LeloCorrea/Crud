@@ -75,3 +75,7 @@ Pré requisito:
     cd dev-angular: para entrar no diterório
 
     Para criar o projeto base é necessário instalar o Angular/cli, através do comando: npm install -g @angular/cli
+
+    Criando o primeiro componente:
+    Dentro do terminal digitar o comando:
+        ng generate component primeiro-componente
