@@ -19,7 +19,7 @@
     <p>{{cliente.id}} - {{cliente.nome}}</p>
 </div>
 
-#for
+#for / #for
 <div   *ngFor="let umCliente of clientes">
     <p *ngIf="umCliente.status"> {{umCliente.id}} - {{umCliente.nome}}</p>
 </div>
