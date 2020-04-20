@@ -19,6 +19,7 @@
     <p>{{cliente.id}} - {{cliente.nome}}</p>
 </div>
 
-<div *ngFor="let umCliente of clientes">
-    <p>{{umCliente.id}} - {{umCliente.nome}}</p>
+#for
+<div   *ngFor="let umCliente of clientes">
+    <p *ngIf="umCliente.status"> {{umCliente.id}} - {{umCliente.nome}}</p>
 </div>

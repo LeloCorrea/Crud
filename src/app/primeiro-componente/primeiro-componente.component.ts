@@ -20,11 +20,18 @@ export class PrimeiroComponenteComponent implements OnInit {
   clientes = [
     {
       id:1,
-      nome: "Fulano"
+      nome: "Fulano",
+      ativo: true
     },
     {
       id:2,
-      nome: "Beltrano"
+      nome: "Beltrano",
+      ativo: false
+    },
+    {
+      id:3,
+      nome: "Ciclano",
+      ativo: true
     }
 
   ]
