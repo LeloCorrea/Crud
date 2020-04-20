@@ -17,6 +17,18 @@ export class PrimeiroComponenteComponent implements OnInit {
     nome: "Fulano"
   }
 
+  clientes = [
+    {
+      id:1,
+      nome: "Fulano"
+    },
+    {
+      id:2,
+      nome: "Beltrano"
+    }
+
+  ]
+
   constructor() { }
 
   ngOnInit(): void {
