@@ -26,7 +26,7 @@ export class PrimeiroComponenteComponent implements OnInit {
     {
       id:2,
       nome: "Beltrano",
-      ativo: true
+      ativo: false
     },
     {
       id:3,
