@@ -8,11 +8,22 @@ import { Component, OnInit } from '@angular/core';
 export class PrimeiroComponenteComponent implements OnInit {
 
   meutitulo = "Exibindo dados através de uma variável!";
-  texto = "Olá, tudo bem?"
+  
+  texto1 = "Olá, tudo bem?";
+  texto2 = "Como vai?"
+
+  cliente = {
+    id:1,
+    nome: "Fulano"
+  }
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  geraTexto(){
+    return "Um texto qualquer";
   }
 
 }
