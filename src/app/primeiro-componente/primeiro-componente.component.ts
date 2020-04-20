@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrimeiroComponenteComponent implements OnInit {
 
+  meutitulo = "Exibindo dados através de uma variável!";
   constructor() { }
 
   ngOnInit(): void {
