@@ -81,3 +81,9 @@ Pré requisito:
     Criando o primeiro componente:
     Dentro do terminal digitar o comando:
         ng generate component primeiro-componente
+
+    Exemplo de Criação de For e If:
+
+    <div   *ngFor="let umCliente of clientes">
+    <p *ngIf="umCliente.status"> {{umCliente.id}} - {{umCliente.nome}}</p>
+</div>
